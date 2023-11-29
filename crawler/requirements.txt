@@ -2,3 +2,4 @@ scrapy
 requests
 supabase
 scrapy-tor-proxy-rotation
+selenium
