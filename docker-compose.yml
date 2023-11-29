@@ -3,7 +3,7 @@ services:
   python:
     build:
       context: .
-      dockerfile: crawler/docker/Dockerfile
+      dockerfile: crawler/Dockerfile
     container_name: scrapy
     environment:
       MYSQL_ROOT_PASSWORD: root
